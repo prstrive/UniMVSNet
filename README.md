@@ -7,6 +7,6 @@ Details are described in our paper:
 >
 > Rui Peng, Rongjie Wang, Zhenyu Wang, Yawen Lai, Ronggang Wang
 >
-> [arxiv](https://arxiv.org/abs/2109.12484)
+> [arxiv](https://arxiv.org/pdf/2201.01501.pdf)
 
 Code will be released soon! 
