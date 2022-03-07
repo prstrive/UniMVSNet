@@ -15,7 +15,7 @@ Details are described in our paper:
 UniMVSNet is more robust on the challenge regions and can generate more 
 accurate depth maps. The point cloud is more complete and the details are finer.
 
-*If there are any bugs in our code, it's free to raise your questions.*
+*If there are any errors in our code, please feel free to ask your questions.*
 
 ## ⚙ Setup
 #### 1. Recommended environment
