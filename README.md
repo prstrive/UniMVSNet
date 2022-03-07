@@ -13,7 +13,7 @@ Details are described in our paper:
 </p>
 
 UniMVSNet is more robust on the challenge regions and can generate more 
-accurate depth maps. The point clouds is more complete and the detail is finer.
+accurate depth maps. The point cloud is more complete and the details are finer.
 
 *If there are any bugs in our code, it's free to raise your questions.*
 
@@ -193,7 +193,7 @@ is the closest we get to reproducing our baseline.
 </table>
 
 ## 📦 DTU points
-You can download our precomputed DTU point clouds from the following links:
+You can download our precomputed DTU point clouds from the following link:
 
 <table align="center">
   	<tr align="center">
