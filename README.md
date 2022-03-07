@@ -6,7 +6,7 @@ Details are described in our paper:
 >
 > Rui Peng, Rongjie Wang, Zhenyu Wang, Yawen Lai, Ronggang Wang
 >
-> CVPR 2022 ([arxiv](https://arxiv.org/abs/2109.12484))
+> CVPR 2022 ([arxiv](https://arxiv.org/abs/2201.01501))
 
 <p align="center">
     <img src="./.github/images/sample.png" width="100%"/>
