@@ -123,7 +123,7 @@ bash ./scripts/dtu_test.sh
 ```
 
 We adopt Gipuma to filter and fuse DTU point clouds, and more details can be found in 
-our code. Note that we use the unimvsnet_dtu model when testing on DTU.
+our code. Note that we use the unimvsnet_dtu checkpoint when testing on DTU.
 
 **Point testing**. You need to move the point clouds generated under each scene into a 
 folder `dtu_points`. Meanwhile, you need to rename the point cloud in 
@@ -141,7 +141,7 @@ to get the average metrics for the entire dataset.
 ```
 bash ./scripts/tank_test.sh
 ```
-Note that we use the unimvsnet_blendedmvs model when testing on Tanks and Temples.
+Note that we use the unimvsnet_blendedmvs checkpoint when testing on Tanks and Temples.
 
 **Point testing**. You need to upload the generated points to Tanks and Temples 
 benchmark, and it will return test results within a few hours.
