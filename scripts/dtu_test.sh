@@ -2,6 +2,7 @@
 datapath="<your dtu_testing path>"
 outdir="<your output save path>"
 resume="<your model path>"
+fusibile_exe_path="<your fusibile path>/fusibile"
 
 CUDA_VISIBLE_DEVICES=0 python main.py \
         --test \
@@ -22,6 +23,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
         --numdepth 192 \
         --interval_scale 1.06 \
         --filter_method "gipuma" \
+        --fusibile_exe_path $fusibile_exe_path \
         --prob_threshold 0.3 \
         --disp_threshold 0.25 \
         --num_consistent 3 ${@:1}
