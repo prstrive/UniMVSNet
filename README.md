@@ -2,7 +2,7 @@
 UniMVSNet is a learning-based multi-view stereo model, which has a unified depth representation to not only achieve sub-pixel depth estimation but also constrain the cost volume directly.
 To excavate the potential of our novel representation, we designed a Unified Focal Loss to combat the challenge of sample imbalance more reasonably and uniformly.
 Details are described in our paper:
-> Rethinking Depth Estimation for Multi-View Stereo: A Unified Representation and Focal Loss
+> Rethinking Depth Estimation for Multi-View Stereo: A Unified Representation
 >
 > Rui Peng, Rongjie Wang, Zhenyu Wang, Yawen Lai, Ronggang Wang
 >
@@ -251,7 +251,7 @@ other methods through removing the command `resume`.
 If you find our work useful in your research please consider citing our paper:
 ```
 @inproceedings{unimvsnet,
-    title = {Rethinking Depth Estimation for Multi-View Stereo: A Unified Representation and Focal Loss},
+    title = {Rethinking Depth Estimation for Multi-View Stereo: A Unified Representation},
     author = {Peng, Rui and Wang, Rongjie and Wang, Zhenyu and Lai, Yawen and Wang, Ronggang},
     booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
     year = {2022}
