@@ -115,15 +115,23 @@ can be found in our paper.
 
 #### 2. DTU testing
 
+**Fusibile installation**. Since we adopt Gipuma to filter and fuse the point on DTU dataset, you need to install 
+Fusibile first. Download [fusible](https://github.com/YoYo000/fusibile) to `<your fusibile path>` and and execute the following command:
+```
+cd <your fusibile path>
+cmake .
+make
+```
+If nothing goes wrong, you will get an executable named fusable. And most of the errors are caused by mismatched GPU computing power.
+
 **Point generation**. To recreate the results from our paper, you need to specify the `datapath` to 
-`<your dtu_testing path>`, `outdir` to `<your output save path>` and `resume` 
- to `<your model path>` in shell file `./script/dtu_test.sh` first and then run:
+`<your dtu_testing path>`, `outdir` to `<your output save path>`, `resume` 
+ to `<your model path>`, and `fusibile_exe_path` to `<your fusibile path>/fusibile` in shell file `./script/dtu_test.sh` first and then run:
 ```
 bash ./scripts/dtu_test.sh
 ```
 
-We adopt Gipuma to filter and fuse DTU point clouds, and more details can be found in 
-our code. Note that we use the unimvsnet_dtu checkpoint when testing on DTU.
+Note that we use the unimvsnet_dtu checkpoint when testing on DTU.
 
 **Point testing**. You need to move the point clouds generated under each scene into a 
 folder `dtu_points`. Meanwhile, you need to rename the point cloud in 
