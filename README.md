@@ -116,7 +116,7 @@ can be found in our paper.
 #### 2. DTU testing
 
 **Fusibile installation**. Since we adopt Gipuma to filter and fuse the point on DTU dataset, you need to install 
-Fusibile first. Download [fusible](https://github.com/YoYo000/fusibile) to `<your fusibile path>` and and execute the following command:
+Fusibile first. Download [fusible](https://github.com/YoYo000/fusibile) to `<your fusibile path>` and execute the following commands:
 ```
 cd <your fusibile path>
 cmake .
